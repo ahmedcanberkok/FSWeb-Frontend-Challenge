@@ -1,0 +1,27 @@
+footer {
+    font-family: "Inter", sans-serif;
+  }
+  .footer-h3 {
+    font-size: 2.6rem;
+    position: relative;
+  }
+  .footer-h3:before {
+    content: "";
+    display: block;
+    width: 56%;
+    height: 15%;
+    background: #82baffd3;
+    left: 30%;
+    top: 32%;
+    position: absolute;
+    border-radius: 4px;
+  }
+  footer a {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 767px) {
+    .footer-h3 {
+      font-size: 2rem;
+      position: relative;
+    }
+  }

@@ -1,0 +1,54 @@
+.projects-h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+  }
+  .project-2 {
+    background-color: #ddeefe;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .project-2 h4 {
+    font-size: 1.8rem;
+    font-family: "Playfair Display", serif;
+  }
+  .project-2 p {
+    font-family: "Inter", sans-serif;
+  }
+  .anchor-project {
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+  }
+  .p-width-custom {
+    width: 78%;
+  }
+  .used-tools {
+    width: 75%;
+  }
+  .computer-picture {
+    margin-bottom: -75px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .second-box-projects {
+    background-color: #d9f6f1;
+  }
+  @media (max-width: 767px) {
+    .used-tools {
+      width: 85%;
+    }
+    .anchor-project {
+      font-size: 1rem;
+      font-family: "Inter", sans-serif;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+      display: none !important;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+      display: none !important;
+    }
+  }

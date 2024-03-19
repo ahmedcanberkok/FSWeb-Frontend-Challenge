@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.custom-tools {
+  padding: 0.3rem 1.6rem;
+  border-radius: 76px;
+}

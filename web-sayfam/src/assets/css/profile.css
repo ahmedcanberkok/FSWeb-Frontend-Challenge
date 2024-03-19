@@ -1,0 +1,63 @@
+.profile-box {
+    -webkit-box-shadow: 7px 7px 0px 0px rgba(82, 82, 82, 0.5);
+    -moz-box-shadow: 7px 7px 0px 0px rgba(82, 82, 82, 0.5);
+    box-shadow: 7px 7px 0px 0px rgba(82, 82, 82, 0.5);
+    border-radius: 12px;
+  }
+  .redCir {
+    text-align: -webkit-right;
+    margin-top: -20px;
+  }
+  .redCir img {
+    margin-top: -40px;
+  }
+  .h2-profile {
+    font-family: "Inter", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+  .profile-box h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+  }
+  .second-box-cs-2-black {
+    width: 40%;
+  }
+  .profile-box p {
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+  }
+  .h4-second-box {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    position: relative;
+  }
+  .h4-second-box::after {
+    content: "";
+    display: block;
+    width: 23%;
+    height: 40%;
+    background: #82baffaa;
+    left: 0;
+    top: 60%;
+    position: absolute;
+    border-radius: 4px;
+  }
+  .box-2-p p {
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+  }
+  @media (max-width: 767px) {
+    .redCir img {
+      margin-top: -5px;
+      width: 10%;
+    }
+    .profile2-box-right {
+      width: 80% !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .second-box-cs-2-black {
+      width: 55% !important;
+    }
+  }

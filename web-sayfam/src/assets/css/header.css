@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500&display=swap");
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 2.7em;
+  height: 1.3em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  --background: #000;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  left: 15%;
+  bottom: 15%;
+  box-shadow: inset 9px -1px 0px -2px #fff000;
+  background: var(--background);
+  transition: 0.5s;
+}
+
+input:checked + .slider {
+  background-color: #ea2678;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
+/*** header section  */
+.header-container {
+  max-width: 1107px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.cs--headerTexts p,
+span,
+.span-cs-headers {
+  font-family: "Inter", sans-serif;
+}
+.cs-border {
+  border-left: 2px solid #7777;
+}
+.eclipse-cont {
+  width: 500px;
+  margin: 0 auto;
+}
+.pink-shadow {
+  -webkit-box-shadow: -16px -18px 0px 0px rgba(234, 38, 120, 1);
+  -moz-box-shadow: -16px -18px 0px 0px rgba(234, 38, 120, 1);
+  box-shadow: -16px -18px 0px 0px rgba(234, 38, 120, 1);
+  border-radius: 25px;
+  /*  width: 361px;
+  height: 361px; */
+  width: 35%;
+  height: 35%;
+}
+.cs-header-h1 {
+  position: relative;
+}
+.cs-header-h1:before {
+  content: "";
+  display: block;
+  width: 27%;
+  height: 10%;
+  background: #e92577c6;
+  left: 0;
+  top: 12%;
+  position: absolute;
+  border-radius: 10px;
+}
+.pink-shadow img {
+  width: 100%;
+  height: 100%;
+}
+.two-sections {
+  font-family: "Inter", sans-serif;
+}
+.rectangle-red {
+  margin-top: 2rem;
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 67%;
+  }
+  .switch {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    width: 2.6em;
+    height: 1.4em;
+  }
+  .eclipse-cont {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .eclipse-cont img {
+    width: 20%;
+  }
+  .cs-header-h1 {
+    font-size: 1.2rem;
+  }
+  .cs-header-h1:before {
+    left: 0;
+    top: 13% !important;
+  }
+  .rectangle-red {
+    width: 10%;
+  }
+  .icons-linkedin {
+    font-size: 2rem;
+  }
+  .cs-header-h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .cs-header-h1 {
+    font-size: 1.7rem;
+  }
+}
